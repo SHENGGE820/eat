@@ -240,7 +240,7 @@
   <div class="section" id="s2">
     <div class="card">
       <span class="deco">🎊</span>
-      <div class="big-text">等等你真的答應了喔<br>(◔౪◔)</div>
+      <div class="big-text">確定喔<br>(◔౪◔)</div>
       <button class="btn-main" onclick="goTo(3)">沒錯沒錯！</button>
     </div>
   </div>
@@ -430,11 +430,10 @@
     setTimeout(() => {
       old.classList.remove('exit');
       document.getElementById('finalText').innerHTML =
-        `太棒了 那就約好囉！<br>` +
+        `那就這樣囉<br>` +
         `📅 ${selDate}<br>` +
         `🕐 ${selTime}<br>` +
-        `🍽️ ${selRest}<br><br>` +
-        `記得要來喔 ٩(◕‿◕｡)۶`;
+        `🍽️ ${selRest}<br><br>`;
       document.getElementById('s5').classList.add('active');
       cur = 5;
     }, 480);
